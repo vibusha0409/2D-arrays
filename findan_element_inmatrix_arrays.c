@@ -30,6 +30,12 @@ int main()
             {
                 flag = 1;
                 printf("Element found at position %d %d\n", i, j);
+                //for example The element 20 appears three times.
+
+//Our output will be:
+//Element found at position 0 1
+//Element found at position 1 1
+//Element found at position 2 2
             }
         }
     }
