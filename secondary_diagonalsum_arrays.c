@@ -2,7 +2,7 @@
 
 int main()
 {
-    int r, c, i, j;
+    int r, c, i, j,sum=0;
 
     printf("Enter number of rows and columns: ");
     scanf("%d %d", &r, &c);
@@ -28,10 +28,11 @@ int main()
 //remember here both r-1 and c-1 can come because this is a square matrix only😉😅😁
             if(i + j == r - 1) 
             {
-                printf("%d ", a[i][j]);
+                sum=sum+a[i][j];
             }
         }
     }
+                printf("%d ", sum);
 
     return 0;
 }
