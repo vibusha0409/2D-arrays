@@ -1,3 +1,4 @@
+//here u r transporsing a matrix u r not checking or anything like that
 #include <stdio.h>
 
 int main()
